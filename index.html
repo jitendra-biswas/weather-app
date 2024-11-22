@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <button id="back"><i class="ri-arrow-left-line"></i> Back</button>
+      <div class="landing-page">
+        <h1>
+          Discover the <br />
+          Weather in your city
+        </h1>
+        <img src="cloud-thunderstorm-3d-icon-downl.png" alt="" />
+        <p>You know the weather in your city</p>
+        <button>Get Started</button>
+      </div>
+      <div class="app-container">
+        <div class="search">
+          <input type="search" placeholder="Search for a city" />
+          <button><i class="ri-search-line"></i></button>
+        </div>
+
+        <div class="weather-image">
+          <img src="sun-3d-illustration-download-in.png" alt="" />
+        </div>
+        <div class="temperature">
+          <div class="temp">24°C</div>
+        </div>
+        <div class="city">
+          <h2 id="city">City</h2><br><h2 id="Country">Country Name</h2>
+        </div>
+        <div class="humidity-wind">
+          <div class="humidity">
+            <img src="water-humidity-3d-icon-download.png" alt="" />
+            <div class="humidity-detail">
+              <p>40%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="wind">
+            <img src="weather-sky-cloud-3d-render-icon.png" alt="" />
+            <div class="wind-detail">
+              <p>18 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
